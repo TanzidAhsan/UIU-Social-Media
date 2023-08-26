@@ -1,0 +1,381 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.main{
+  width: 100%;
+  background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(../image/uiub.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  
+}
+
+
+.navbar-new{
+  width: 1200px;
+  height: 75px;
+  margin: auto;
+  
+}
+
+.icon{
+  
+  width: 200px;
+  float: left;
+  height: 70px;
+
+}
+
+.logo{
+  color: #ff7200;
+  font-size: 35px;
+  font-family: Arial;
+  padding-left: 20px;
+  float: left;
+  padding-top: 10px;
+  margin-top: 5px;
+  
+}
+.uiu_logo{
+  width: 200px;
+  float: left;
+  height: 70px;
+  padding-top: 12px;
+  padding-left: 20px;
+}
+.menu{
+  width: 100px;
+  float: left;
+  height: 70px;
+  
+}
+
+ul{
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -45px;
+  width: max-content;
+}
+
+
+ul li{
+  list-style: none;
+  margin-left: 62px;
+  margin-top: 27px;
+  font-size: 14px;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+  color: #ff7200;
+}
+
+.search{
+  width: 300px;
+  float: left;
+  margin-left: 600px;
+  
+}
+
+.srch{
+  font-family: 'Times New Roman';
+  width: 180px;
+  height: 26px;
+  background: transparent;
+  border: 1px solid #ff7200;
+  margin-top: 20px;
+  color: #fff;
+  border-right: none;
+  font-size: 16px;
+  float: left;
+  padding: 10px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.btn-new{
+  width: 70px;
+  height: 26px;
+  background: #ff7200;
+  border: 2px solid #ff7200;
+  margin-top: 20px;
+  color: #fff;
+  font-size: 15px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+.btn-new:hover{
+  color: #000;
+}
+
+.btn:focus{
+  outline: none;
+}
+
+.srch:focus{
+  outline: none;
+}
+
+.expert {
+  border: 2px solid orange;
+  background: white;
+  padding: 10px 20px;
+}
+
+
+
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 75px;
+  gap: 30px;
+}
+
+.column {
+  flex-basis: calc((100% -40px) / 2);
+  padding: 10px;
+  height: 400px;
+  color: #F2F2F2;
+  text-align: left;
+  background-color: transparent;
+}
+
+.information{
+  text-align: center;
+  background-color: transparent;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  height: 400px;
+  width: 400px;
+}
+
+
+.column:nth-child(2) span {
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 2px solid #DF6E31;
+  background-color: #F2F2F2;
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.column:nth-child(2) span {
+  display: block;
+  margin: 5px 0 5px;
+  padding: 2px 10px;
+  border: 2px solid #DF6E31;
+  background-color: rgba(242, 242, 242, 0.8);
+  color: #333;
+  font-size: 13px;
+  font-weight: bold;
+  border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .column:nth-child(2) span:hover {
+    background-color: #FF7200;
+  }
+
+
+  .image {
+    margin-left: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    height: 300px;
+    width: 300px;
+}
+
+p {
+  text-align: left;
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+h2 {
+  padding-top: 10px;
+}
+
+
+
+
+
+footer {
+  position: relative;
+  height: 60px;
+  background: transparent;
+  margin-top: -20px;
+}
+
+.logout-button {
+  position: absolute;
+  top: -20px;
+  right: 20px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 1;
+  margin-right: 10px
+}
+
+.logout-button a {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.logout-button:hover {
+  background-color: #0062cc;
+  cursor: pointer;
+}
+
+
+
+
+/* .follow-button {
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 265px;
+}
+
+.facebook-connect {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #3b5998;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.facebook-connect i {
+  margin-right: 10px;
+}
+
+.facebook-connect:hover {
+  background-color: #2d4373;
+}
+
+a.facebook-connect {
+  border-radius: 400px;
+}
+
+ */
+
+
+
+.wrapper .icon{
+  position: relative;
+  background-color: #3b5999;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 22px;
+  display: inline-block;
+  align-items: center;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  color: #ffffff;
+  text-decoration: none;
+  margin-top: 30px;
+  margin-left: 200px;
+}
+.wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  line-height: 1.5;
+  font-size: 14px;
+  background-color: #ffffff;
+  color: #ffffff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background-color: #ffffff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
+  background-color: #3b5999;
+  color: #ffffff;
+}
+
+
+i.fab.fa-facebook-f {
+  margin-left: 16px;
+}
+
+.wrapper .github:hover,
+.wrapper .github:hover .tooltip,
+.wrapper .github:hover .tooltip::before {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.wrapper .linkedin:hover,
+.wrapper .linkedin:hover .tooltip,
+.wrapper .linkedin:hover .tooltip::before {
+  background-color: #3b5999;
+  color: #ffffff;
+}
+
+i.fab.fa-github{
+  margin-left: 14px;
+}
+
+a.icon.github {
+  margin-left: 30px;
+}
+
+a.icon.linkedin {
+  margin-left: 25px;
+}
+
+i.fab.fa-linkedin {
+  margin-left: 13px;
+}
